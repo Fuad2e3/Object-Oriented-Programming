@@ -1,11 +1,16 @@
+<div align="center">
+
 # 📈 Invest Management System
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Java](https://img.shields.io/badge/Language-Java-orange.svg)](https://www.java.com/)
-[![JavaFX](https://img.shields.io/badge/Framework-JavaFX-blue.svg)](https://openjfx.io/)
-[![Maven](https://img.shields.io/badge/Build-Maven-red.svg)](https://maven.apache.org/)
+[![Java](https://img.shields.io/badge/LANGUAGE-JAVA-orange?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
+[![License: MIT](https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![JavaFX](https://img.shields.io/badge/FRAMEWORK-JAVAFX-blue?style=for-the-badge)](https://openjfx.io/)
+[![Maven](https://img.shields.io/badge/BUILD-MAVEN-red?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
 
-Empowering users to manage their investments efficiently with a clean, intuitive, and modern interface. Built as part of the Object-Oriented Programming course at Green University of Bangladesh.
+**Empowering users to manage their investments efficiently with a clean, intuitive, and modern interface.**  
+*Built as part of the Object-Oriented Programming course at Green University of Bangladesh.*
+
+</div>
 
 ---
 
