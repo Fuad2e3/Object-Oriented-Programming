@@ -1,12 +1,13 @@
 <div align="center">
 
-# Invest Management System
+# 📈 Invest Management System
 
-[![Java](https://img.shields.io/badge/JAVA-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
-[![License](https://img.shields.io/badge/LICENSE-MIT-blue?style=for-the-badge)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/VERSION-1.0.0-green?style=for-the-badge)](https://github.com/fuadk/Object-Oriented-Programming)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Java](https://img.shields.io/badge/Language-Java-orange.svg)](https://www.java.com/)
+[![JavaFX](https://img.shields.io/badge/Framework-JavaFX-blue.svg)](https://openjfx.io/)
+[![Maven](https://img.shields.io/badge/Build-Maven-red.svg)](https://maven.apache.org/)
 
-**Empowering users to manage their investments efficiently with a clean, intuitive, and modern interface.**
+Empowering users to manage their investments efficiently with a clean, intuitive, and modern interface. Built as part of the Object-Oriented Programming course at Green University of Bangladesh.
 
 </div>
 
@@ -57,7 +58,7 @@ Object-Oriented-Programming/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/fuadk/Object-Oriented-Programming.git
+   git clone https://github.com/Object-Oriented-Programming.git
    cd Object-Oriented-Programming
    ```
 
