@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.111" fx:controller="org.example.db.MainController">
+
+  <!-- Registration Form -->
+  <VBox fx:id="registerPane" spacing="10" alignment="CENTER">
+    <padding>
+      <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+    <Label text="Invest Management System" style="-fx-font-size: 18px;"/>
+    <GridPane hgap="10" vgap="10">
+      <Label text="Name:"/>
+      <TextField fx:id="nameField" GridPane.columnIndex="1"/>
+      <Label text="Registration Number:" GridPane.rowIndex="1"/>
+      <TextField fx:id="regNumberField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    </GridPane>
+    <Button text="Register" onAction="#registerUser"/>
+    <Label fx:id="resultLabel" wrapText="true" style="-fx-font-size: 14px;"/>
+  </VBox>
+
+  <!-- Investment Options -->
+  <VBox fx:id="investmentPane" spacing="10" alignment="CENTER" visible="false">
+    <padding>
+      <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+    <Label text="Investment Program" style="-fx-font-size: 18px;"/>
+    <Label text="Investment" style="-fx-font-size: 18px;"/>
+    <GridPane hgap="10" vgap="10">
+      <Label text="Amount:"/>
+      <TextField fx:id="amountField" GridPane.columnIndex="1"/>
+    </GridPane>
+    <Button text="Invest" onAction="#investMoney"/>
+    <Button text="Withdraw" onAction="#withdrawMoney"/>
+    <Label text="Profit Calculation" style="-fx-font-size: 18px;"/>
+    <GridPane hgap="10" vgap="10">
+      <Label text="Profit Percentage:"/>
+      <TextField fx:id="profitPercentageField" GridPane.columnIndex="1"/>
+    </GridPane>
+    <Button text="Calculate Profit" onAction="#calculateProfit"/>
+    <Button text="See Balance" onAction="#seeMoney"/>
+    <Label fx:id="resultLabel" wrapText="true" style="-fx-font-size: 14px;"/>
+  </VBox>
+</StackPane>
