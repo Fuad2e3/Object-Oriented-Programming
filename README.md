@@ -79,6 +79,6 @@ Object-Oriented-Programming/
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="center">
-  Developed with ❤️ by <b>Team Softece</b><br>
+  Developed with ❤️ by <b>Fuad</b><br>
   <i>Object-Oriented Programming | Green University of Bangladesh</i>
 </p>
