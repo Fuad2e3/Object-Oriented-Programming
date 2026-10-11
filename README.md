@@ -1,34 +1,46 @@
 <div align="center">
 
-# 📈 Invest Management System
+# 📈 Investment Management System (OOP)
+### **Enterprise JavaFX Architecture & Object-Oriented Financial Software**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Java](https://img.shields.io/badge/Language-Java-orange.svg)](https://www.java.com/)
-[![JavaFX](https://img.shields.io/badge/Framework-JavaFX-blue.svg)](https://openjfx.io/)
-[![Maven](https://img.shields.io/badge/Build-Maven-red.svg)](https://maven.apache.org/)
+[![Language](https://img.shields.io/badge/Language-Java_17+-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.oracle.com/java/)
+[![GUI](https://img.shields.io/badge/Framework-JavaFX-blue?style=for-the-badge&logo=openjdk&logoColor=white)](https://openjfx.io/)
+[![Build](https://img.shields.io/badge/Build-Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)](https://maven.apache.org/)
+[![Course](https://img.shields.io/badge/Course-OOP-8E75FF?style=for-the-badge)](https://green.edu.bd)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
-Empowering users to manage their investments efficiently with a clean, intuitive, and modern interface. Built as part of the Object-Oriented Programming course at Green University of Bangladesh.
+**Applying core OOP principles (Encapsulation, Inheritance, Polymorphism, Abstraction) and MVC architecture.**
+
+---
+
+[Explore Features](#-features) • [Technologies](#-technologies-used) • [Project Structure](#-project-structure) • [Installation](#-getting-started)
 
 </div>
 
 ---
 
-## 🌟 Features
+## 📖 Overview
+Developed as part of the **Object-Oriented Programming** coursework at **Green University of Bangladesh**, this application showcases clean software engineering in Java. By combining encapsulation, interface abstraction, domain entity models, and an event-driven JavaFX graphical interface, it delivers an intuitive financial portfolio management dashboard.
 
-- **User Registration**: Simple and secure registration with name and ID.
-- **Investment Management**: Deposit and track your investment balance effortlessly.
-- **Withdrawal System**: Seamlessly withdraw funds from your balance.
-- **Profit Calculation**: Integrated calculator to project and apply profits based on percentage.
-- **Real-time Balance**: Keep track of your current standing with a single click.
+---
+
+## 🌟 Key Features
+
+- 👤 **Encapsulated User Management:** Secure client entity models with data validation and immutability guards.
+- 💰 **Transactional Investment Engine:** Safe account balance updating with atomic deposit and withdrawal methods.
+- 📈 **Polymorphic Profit Calculations:** Mathematical calculation strategies predicting compound returns based on variable market yields.
+- 🎨 **Declarative FXML Interface:** Clean decoupling between Java controllers and XML-based scene graphs.
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Language**: [Java](https://www.java.com/) (JDK 17+)
-- **GUI Framework**: [JavaFX](https://openjfx.io/)
-- **Build Tool**: [Apache Maven](https://maven.apache.org/)
-- **Design Pattern**: MVC (Model-View-Controller)
+| Layer | Technology | Purpose |
+| :--- | :--- | :--- |
+| **Language** | Java (JDK 17+) | Object-oriented core domain logic |
+| **GUI Framework** | JavaFX | Component-driven desktop UI layout |
+| **Build Automation** | Apache Maven | Dependency resolution and runtime plugins |
+| **Design Pattern** | MVC Architecture | Separation of presentation, data models, and logic |
 
 ---
 
@@ -38,47 +50,38 @@ Empowering users to manage their investments efficiently with a clean, intuitive
 Object-Oriented-Programming/
 ├── src/
 │   ├── main/
-│   │   ├── java/org/example/db/     # Source Code (Main, Controller, Models)
-│   │   └── resources/org/example/db/ # UI Layouts (FXML)
-├── pom.xml                          # Maven Configuration
+│   │   ├── java/org/example/db/     # Controller classes, models & main application
+│   │   └── resources/org/example/db/# FXML layout templates and style rules
+├── pom.xml                          # Maven build descriptors
 ├── LICENSE                          # MIT License
-└── README.md                        # Project Documentation
+└── README.md                        # Documentation
 ```
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### 1. Prerequisites
+- Java Development Kit (JDK 17 or higher).
+- Apache Maven.
 
-- Java Development Kit (JDK) 17 or higher.
-- Apache Maven installed.
-
-### Installation & Run
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/Object-Oriented-Programming.git
-   cd Object-Oriented-Programming
-   ```
-
-2. **Build the project:**
-   ```bash
-   mvn clean install
-   ```
-
-3. **Run the application:**
-   ```bash
-   mvn javafx:run
-   ```
+### 2. Build & Launch
+```bash
+git clone https://github.com/Fuad2e3/Object-Oriented-Programming.git
+cd Object-Oriented-Programming
+mvn clean install
+mvn javafx:run
+```
 
 ---
 
 ## 📄 License
-
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<p align="center">
-  Developed with ❤️ by <b>Fuad</b><br>
-  <i>Object-Oriented Programming | Green University of Bangladesh</i>
-</p>
+<div align="center">
+
+**Developed with ❤️ by Fuad**  
+*Developed by Softece*  
+*Object-Oriented Programming | Green University of Bangladesh*
+
+</div>
