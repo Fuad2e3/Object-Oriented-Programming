@@ -13,7 +13,7 @@
 
 ---
 
-[Explore Features](#-features) • [Technologies](#-technologies-used) • [Project Structure](#-project-structure) • [Installation](#-getting-started)
+[Explore Features](#-features) • [Technologies](#-technologies-used) • [Project Structure](#-project-structure)
 
 </div>
 
@@ -59,29 +59,11 @@ Object-Oriented-Programming/
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Prerequisites
-- Java Development Kit (JDK 17 or higher).
-- Apache Maven.
-
-### 2. Build & Launch
-```bash
-git clone https://github.com/Fuad2e3/Object-Oriented-Programming.git
-cd Object-Oriented-Programming
-mvn clean install
-mvn javafx:run
-```
-
----
-
 ## 📄 License
 Distributed under the MIT License. See `LICENSE` for more information.
 
 <div align="center">
 
-**Developed with ❤️ by Fuad**  
-*Developed by Softece*  
-*Object-Oriented Programming | Green University of Bangladesh*
+**Developed ❤️ by Softece**
 
 </div>
